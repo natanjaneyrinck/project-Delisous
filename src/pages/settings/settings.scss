@@ -1,0 +1,37 @@
+page-settings {
+    .background{
+        background: linear-gradient(150deg, #534271 0%,#c5c7ff 100%);
+    }
+    .title-style{
+        font-family: Pacifico;
+        color: #23172a;
+        font-size: 5rem;
+        margin-bottom: 50px;
+    }
+    .scroll-content{
+        margin-top: 80px;
+    }
+    .button-width{
+        width: 250px;
+    }
+    .background-input{
+        background-color: transparent;
+    }
+    .list-ios > .item-block:first-child {
+        border-top: 0.55px solid transparent;
+    }
+    .list-ios .item-block .item-inner {
+        border-bottom: 0.55px solid transparent;
+    }
+    .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+        border-bottom: 0.55px solid transparent;
+    }
+    .color-input{
+        color:#c5c7ff;
+    }
+
+    .header-ios .toolbar-ios:last-child .toolbar-background-ios {
+        border-width: 0 0 0px;
+        background-color: transparent;
+    }
+}

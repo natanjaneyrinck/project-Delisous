@@ -1,0 +1,15 @@
+
+<ion-content text-center class="background" padding>
+  <h1 class="title-style">Delicious</h1>
+
+      <ion-list>
+  <ion-title class="title">Verander uw paswoord:</ion-title>
+
+  <ion-item class="background-input">
+    <ion-label floating class="color-input">Password</ion-label>
+    <ion-input [(ngModel)]="user.password" type="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+<button class="button-width" ion-button round (click)=changePassword()>Change password</button>
+</ion-content>

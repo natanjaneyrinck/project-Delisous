@@ -1,0 +1,48 @@
+<!--
+  Generated template for the DetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Delicious</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="background">
+    <ion-card>
+
+        <img src="{{restaurant.img}}" alt="img">
+        <ion-fab right top>
+          <button ion-fab>
+            <ion-icon name="restaurant"></ion-icon>
+          </button>
+        </ion-fab>
+      
+        <ion-item>
+          <ion-icon class="icon-color" name="pin" item-start large></ion-icon>
+          <h2>{{restaurant.naam}}</h2>
+          <p>{{restaurant.adres}}</p>
+        </ion-item>
+      
+        <ion-item>
+          <ion-icon class="icon-color" name="time" item-left large ></ion-icon>
+          <h2>Openingsuren</h2>
+          <p>{{restaurant.uren}}</p>
+        </ion-item>
+      
+        <ion-item>
+
+          
+          <button ion-button icon-left clear item-end (click)=menu()>
+            <ion-icon name="arrow-dropright-circle"></ion-icon>
+            Reserveer
+          </button>
+        </ion-item>
+      
+      </ion-card>
+</ion-content>

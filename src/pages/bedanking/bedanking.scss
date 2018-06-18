@@ -1,4 +1,5 @@
-page-home {
+page-bedanking {
+    
     .background{
         background: linear-gradient(150deg, #534271 0%,#c5c7ff 100%);
     }
@@ -9,13 +10,13 @@ page-home {
         margin-bottom: 50px;
     }
     .scroll-content{
-        margin-top: 160px;
+        margin-top: 100px;
     }
-    .sign-up{
-        border: solid;
-        border-color: #23172a;
-    }
-    .button-width{
-        width: 250px;
+
+    .txt-style{
+        font-family: Pacifico;
+        color: #23172a;
+        font-size: 2rem;
+        margin-bottom: 50px;
     }
 }

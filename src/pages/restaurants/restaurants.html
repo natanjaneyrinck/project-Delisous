@@ -1,0 +1,21 @@
+<!--
+  Generated template for the RestaurantsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content padding class="background">
+  <ion-content class="card-background-page">
+
+    <ion-card *ngFor="let restaurant of restaurants" (click)="itemTapped($event,restaurant)">
+      <img src="assets/imgs/restaurant-logo.jpg"/>
+      <div class="card-title">{{restaurant.naam}}</div>
+    </ion-card>
+
+    <button class="button-width" ion-button round (click)=settings()>Change password</button>
+
+  </ion-content>
+</ion-content>
+

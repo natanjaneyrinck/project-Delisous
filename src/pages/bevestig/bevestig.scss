@@ -1,0 +1,59 @@
+page-bevestig {
+    .background{
+        background: linear-gradient(150deg, #c5c7ff 0%,#a198d1 100%);
+    }
+    .toolbar-title-ios {
+        font-family: Pacifico;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: lighter;
+        color: #23172a;
+        pointer-events: auto;
+    }
+    .header-ios .toolbar-ios:last-child .toolbar-background-ios {
+        border-width: 0 0 0px;
+        background-color: transparent;
+    }
+    .button-width{
+        width: 250px;
+    }
+    .background-input{
+        background-color: transparent;
+    }
+    .list-ios > .item-block:first-child {
+        border-top: 0.55px solid transparent;
+    }
+    .list-ios .item-block .item-inner {
+        border-bottom: 0.55px solid transparent;
+    }
+    .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+        border-bottom: 0.55px solid transparent;
+    }
+    .color-input{
+        color:#23172a;
+    }
+    .select-ios .select-icon .select-icon-inner {
+        left: 5px;
+        top: 50%;
+        margin-top: -2px;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 5px solid;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        color: #23172a;
+        pointer-events: none;
+    }
+    .toggle-ios .toggle-icon {
+        border-radius: 16px;
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #c5c7ff;
+        -webkit-transition: background-color 300ms;
+        transition: background-color 300ms;
+        pointer-events: none;
+    }
+}
